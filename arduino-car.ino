@@ -81,7 +81,7 @@ void setCommandToMotor()
 void setup()
 {
     Serial.begin(9600);
-    setMotorSpeed();
+    setMotorSpeed(255);
 }
 
 void loop()
